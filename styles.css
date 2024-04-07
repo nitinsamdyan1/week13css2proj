@@ -1,0 +1,47 @@
+body {
+    background-image: url("lataji.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.lyrics {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    color:#f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', serif;
+}
+
+.lyrics p:first-child {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lyrics p:nth-child(even) {
+    font-style: italic;
+    color: #666;
+}
+
+.lyrics p:nth-child(odd) {
+    font-weight: bold;
+}
+
+.lyrics p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+    color: #dd2c00;
+}
